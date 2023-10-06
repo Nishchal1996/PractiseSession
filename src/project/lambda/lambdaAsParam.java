@@ -9,8 +9,6 @@ public class lambdaAsParam {
     	System.out.println(operation.getCalculate(x,y));
      }
      public static void main(String[] args) {
-		result(15, 32, (x,y)->{
-			return x+y;
-		});
+		result(15, 32, (x,y)->x+y);
 	}
 }
